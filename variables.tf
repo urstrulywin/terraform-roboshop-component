@@ -1,23 +1,23 @@
 variable "project" {
-    default = "roboshop"
+  default = "roboshop"
 }
 
 variable "environment" {
-    default = "dev"
+  default = "dev"
 }
 
 variable "app_version" {
-    default = "v3"
+  default = "v3"
 }
 
 variable "component" {
-    type = string
+  type = string
 }
 
 variable "domain_name" {
-    default = "daws90s.shop"
+  default = "daws90s.shop"
 }
 
 variable "rule_priority" {
-    #type = string
+  #type = string
 }
